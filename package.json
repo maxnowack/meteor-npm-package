@@ -18,6 +18,9 @@
     "url": "https://github.com/maxnowack/meteor-npm-package/issues"
   },
   "homepage": "https://github.com/maxnowack/meteor-npm-package#readme",
+  "files": [
+    "dist"
+  ],
   "babel": {
     "presets": [
       "es2015"
