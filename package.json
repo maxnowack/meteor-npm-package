@@ -39,6 +39,6 @@
     "eslint-plugin-import": "2.2.0"
   },
   "dependencies": {
-    "meteor-globals": "0.1.0"
+    "meteor-globals": "1.0.0"
   }
 }
