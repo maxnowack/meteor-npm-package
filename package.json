@@ -6,7 +6,8 @@
   "scripts": {
     "prepublish": "./node_modules/.bin/babel src -d dist",
     "lint": "./node_modules/.bin/eslint src",
-    "test": "npm link && cd tests && npm link meteor-npm-package && meteor test --once --driver-package dispatch:mocha-phantomjs"
+    "copy": "npm link && cd tests && npm link meteor-npm-package",
+    "test": "npm run copy && cd tests && TEST_BROWSER_DRIVER=nightmare meteor test --once --driver-package dispatch:mocha"
   },
   "repository": {
     "type": "git",
